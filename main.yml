@@ -1,0 +1,14 @@
+- hosts: all
+  user: zack
+  sudo: true
+  roles:
+    - role: spk.ssh-secure
+    - role: howtodojo.htop
+    - role: howtodojo.iperf
+    - role: ryanlelek.sshd
+    - role: mikolak.raspi-config
+      raspi_config_timezone: America/New_York
+      raspi_config_locale: en_US.UTF8
+      raspi_config_replace_user:
+        name: zack
+        path_to_ssh_key: "~/.ssh/id_rsa.pub"
