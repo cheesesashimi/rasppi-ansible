@@ -1,3 +1,4 @@
 - src: mikolak.raspi-config
 - src: spk.ssh-secure
 - src: ryanlelek.sshd
+- src: nickjj.fail2ban
