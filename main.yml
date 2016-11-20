@@ -1,5 +1,5 @@
 - hosts: all
-  user: zack
+  user: pi
   sudo: true
   roles:
     - role: spk.ssh-secure
