@@ -11,6 +11,12 @@
       raspi_config_replace_user:
         name: zack
         path_to_ssh_key: "~/.ssh/id_rsa.pub"
+    - role: nickjj.fail2ban
   tasks:
     - include: tasks/main.yml
-
+  vars:
+    fail2ban_services:
+      - name: ssh
+        port: ssh
+        filter: sshd
+        logpath: /var/log/auth.log
