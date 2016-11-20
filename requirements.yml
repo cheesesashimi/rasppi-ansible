@@ -1,7 +1,3 @@
 - src: mikolak.raspi-config
 - src: spk.ssh-secure
-- src: howtodojo.htop
-- src: howtodojo.iperf
 - src: ryanlelek.sshd
-- src: trinitronx.tmux
-- src: abaez.zsh

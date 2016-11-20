@@ -1,0 +1,9 @@
+- name: Install my packages
+  apt: name={{item}} state=installed
+  with_items:
+    - vim
+    - tmux
+    - nmap
+    - iperf
+    - git
+    - htop
