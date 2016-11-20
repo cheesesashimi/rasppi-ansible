@@ -29,4 +29,4 @@ My playbook makes extensive use of pre-existing Ansible roles available from Ans
 - [mikolak.raspi-config](https://galaxy.ansible.com/mikolak/raspi-config/)
 - [spk.ssh-secure](https://github.com/spk/ansible-ssh-secure)
 - [ryanlelek.sshd](https://github.com/ryanlelek/ansible-role-sshd)
-- [nickjj.fail2ban(https://github.com/nickjj/ansible-fail2ban)
+- [nickjj.fail2ban](https://github.com/nickjj/ansible-fail2ban)
